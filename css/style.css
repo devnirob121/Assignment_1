@@ -1,31 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ------gOogLe _fOnTs --_-- css_Link------ */
+body{
+    font-family: 'Lato', sans-serif;
+}
 
-/* header Style */
-.hdr{
-    background-color: rgba(229, 84, 115, 0.10);
-    display: flex; 
-}
-.bnr{
-    padding: 50px 1045px 4017px 240px;
-}
-.button{
-    border-radius: 5px;
-    background: palevioletred;
-    border: 0;
-}
-.text{
-    color: #fff;
-}
-.bnr-p{
+
+/* --------open_header_sECTIOn---------- */
+
+.header-bnr{
     display: flex;
-width: 708px;
-flex-direction: column;
-flex-shrink: 0;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+
 }
-.bnr-title{
-    color: #272727;
-font-family: Lato;
-font: size 80px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+.header-bnr_image img{
+    width: 400px;
+    height: auto;
 }
+
+.header_bnr-inr h2 {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 13px;
+}
+.header_bnr-inr p {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    text-transform: capitalize;
+    background: #E55473;
+    padding: 14px;
+    color: white;
+    border-radius: 8px;
+}
+/* --------HeaDer-sECTIOn-closed---------- */
