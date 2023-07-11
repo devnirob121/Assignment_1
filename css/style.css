@@ -8,7 +8,7 @@ body{
 }
 
 
-/* --------open_header_sECTIOn---------- */
+/* --------sTART_header_sECTIOn---------- */
 
 .header-bnr{
     display: flex;
@@ -21,6 +21,86 @@ body{
     width: 400px;
     height: auto;
 }
+/* --_-_-_-_-flowers-sECTIOn-sTART ----- */
+.flowers-main-div{
+    padding:100px 200px;
+
+}
+.flower-child-div1{
+
+}
+.flower-child-div1 h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.flower-child-div1 p {
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.flower-child-div2 {
+    margin-top: 79px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.bOx_flower-1 {
+    background-color: #f2dee7;
+    width: 240px;
+    height: 300px;
+    text-align: center;
+    border-radius: 121px 121px   0px 0px;
+}
+.bOx_flower-1 img {
+    width: 109px;
+    margin-top: 58px;
+    height: 242px;
+}
+.flowers-main-div h4 {
+    font-size: 12px;
+    border-bottom: 2px solid;
+}
+.bOx_flower-2{
+    background: rgba(5, 151, 160, 0.15);
+    width: 240px;
+    height: 300px;
+    text-align: center;
+    border-radius: 121px 121px   0px 0px;
+}
+.bOx_flower-2 img{
+    width: 109px;
+    margin-top: 58px;
+    height: 242px;
+}
+.bOx_flower-3{
+    background: rgba(71, 125, 17, 0.15);
+    width: 240px;
+    height: 300px;
+    text-align: center;
+    border-radius: 121px 121px   0px 0px;
+}
+.bOx_flower-3 img{
+    width: 109px;
+    margin-top: 58px;
+    height: 242px;
+
+}
+.flower-title{
+    display: flex;
+    position: relative;
+}
+
+h4.tree-flower {
+    width: 95px;
+    position: absolute;
+    top: 0;
+    left: 548px;
+}
+h4.pink-flower {
+    margin-left: 181px;
+}
+/* --_-_-_-_-flowers-sECTIOn-sTART ----- */
 
 .header_bnr-inr h2 {
     font-size: 34px;
@@ -41,4 +121,4 @@ button {
     color: white;
     border-radius: 8px;
 }
-/* --------HeaDer-sECTIOn-closed---------- */
+/* --------HeaDer-sECTIOn-eND---------- */
