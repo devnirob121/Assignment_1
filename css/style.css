@@ -1,0 +1,31 @@
+
+/* header Style */
+.hdr{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex; 
+}
+.bnr{
+    padding: 50px 1045px 4017px 240px;
+}
+.button{
+    border-radius: 5px;
+    background: palevioletred;
+    border: 0;
+}
+.text{
+    color: #fff;
+}
+.bnr-p{
+    display: flex;
+width: 708px;
+flex-direction: column;
+flex-shrink: 0;
+}
+.bnr-title{
+    color: #272727;
+font-family: Lato;
+font: size 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
