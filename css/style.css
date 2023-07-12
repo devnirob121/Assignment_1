@@ -261,6 +261,47 @@ section.seRVICes {
 }
 /* -- form-sECTIOn-eND_ -- */
 
+/* slider----css start */
+.slider{
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slide-track{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover{
+    animation-play-state: paused;
+}
+.slide{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+img{
+    width: 100%;
+    transition: transform 2s;
+}
+
+img:hover{
+    transform: translateZ(20px);
+}
+/* slider----css end */
+
+
 /* footer-section-start */
 footer{
     padding: 100px;
@@ -288,3 +329,5 @@ footer h6{
 footer span{
     color: #E55473;
 }
+
+
