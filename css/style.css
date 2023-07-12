@@ -225,3 +225,33 @@ section.seRVICes {
     height: 318px;
 }
 /* --_sociaLsECTIOn-eND_-- */
+
+/* -- form-sECTIOn-sTART_ -- */
+.forms{
+    padding: 100px 200px;
+
+}
+.f_main{
+    background-image: url("img/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 78px 0;
+    text-align: center;
+}
+
+.f_inr h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.f_inr h5 {
+    font-size: 15px;
+    margin-bottom: 21px;
+}
+
+.f-button {
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    width: 50%;
+}
+/* -- form-sECTIOn-eND_ -- */
