@@ -122,3 +122,106 @@ button {
     border-radius: 8px;
 }
 /* --------HeaDer-sECTIOn-eND---------- */
+
+/* --sECTIOn_services_sTART -- */
+
+.mAIn_seRVICes {
+    display: flex;
+    padding: 10px 200px;
+    justify-content: space-around;
+    background-color: #2727270D;
+    padding: 80px 0px;
+    width: 850px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 59px;
+}
+section.seRVICes {
+    padding: 40px 149px;
+}
+
+.seRVICes_box small {
+    position: relative;
+    top: 18px;
+    font-size: 9px;
+}
+.seRVICes_box img{
+    width: 40px;
+
+}
+.seRVICes_box small {
+    position: relative;
+    top: 25px;
+    left: -120px;
+    font-size: 7px;
+}
+.se-tiler{
+    display: flex;
+    padding: 0px 200px;
+}
+/* --sECTIOn_services_eND -- */
+
+/* ---sTART_team-sECTIOn_-- */
+.team{
+    padding: 100px 200px;
+    background-color: #E554730D;
+   
+
+}
+.main_team {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+.content_team h3 {
+    font-size: 35px;
+    margin-bottom: 13px;
+}
+.content_team p {
+    text-align: center;
+    margin-bottom: 17px;
+}
+.content_team span{
+    color: #E55473;
+}
+
+.team_button{
+    text-align: center;
+    margin-left: 189px;
+    padding: 13px 23px;
+    border: none;
+    text-transform: capitalize;
+    background: #E55473;
+    border-radius: 5px;
+}
+/* --eND_team-sECTIOn-_--*/
+
+/* --_sociaLsECTIOn-sTART_-- */
+.sociaL {
+    text-align: center;
+    padding: 57px;
+}
+.sociaL h4{
+    font-size: 35px;
+    margin-bottom: 11px;
+}
+.sociaL p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.sociaL-maIn{
+    display: flex;
+    gap: 35px;
+
+}
+.sociaL-boX{
+    width: 259px;
+    height: 318px;
+
+}
+.sociaL-boX img {
+    width: 259px;
+    height: 318px;
+}
+/* --_sociaLsECTIOn-eND_-- */
