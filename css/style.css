@@ -53,11 +53,15 @@ body{
     border-radius: 121px 121px   0px 0px;
 }
 .bOx_flower-1 img {
-    width: 109px;
+   
     margin-top: 58px;
     height: 242px;
 }
 .flowers-main-div h4 {
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
     font-size: 12px;
     border-bottom: 2px solid;
 }
@@ -69,7 +73,7 @@ body{
     border-radius: 121px 121px   0px 0px;
 }
 .bOx_flower-2 img{
-    width: 109px;
+    
     margin-top: 58px;
     height: 242px;
 }
@@ -81,7 +85,7 @@ body{
     border-radius: 121px 121px   0px 0px;
 }
 .bOx_flower-3 img{
-    width: 109px;
+    
     margin-top: 58px;
     height: 242px;
 
@@ -147,6 +151,7 @@ section.seRVICes {
 }
 .seRVICes_box img{
     width: 40px;
+    margin-left: 80px;
 
 }
 .seRVICes_box small {
@@ -232,7 +237,7 @@ section.seRVICes {
 
 }
 .f_main{
-    background-image: url("img/Rectangle 9.png");
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 78px 0;
@@ -255,3 +260,31 @@ section.seRVICes {
     width: 50%;
 }
 /* -- form-sECTIOn-eND_ -- */
+
+/* footer-section-start */
+footer{
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(7, 6, 6);
+    color: white;
+}
+footer h4 {
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+footer h5 {
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: #d8cbcb;
+    line-height: 20px;
+}
+
+footer h6{
+    margin-top: 39px;
+    margin-bottom: 20px;
+    color: #424141;
+}
+
+footer span{
+    color: #E55473;
+}
